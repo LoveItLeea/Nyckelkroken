@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: white;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  min-width: 100%;
+  line-height: 1.2;
+}
+ .carousel-inner img {
+    width: 100%;
+    height: 100%;
+    float: right;
+  }
+  #map {
+  height: 400px;
+  /* The height is 400 pixels */
+  width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+.column.left, .column.right {
+  min-width: 100%; 
+  float: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+ #topnav, #topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+
+h1 {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 2em;
+  color: black;
+  font-weight: lighter;
+}
+
+h2 {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 1.5em;
+  color: black;
+  margin-top: 40px;
+  font-weight: lighter;
+}
+
+h3 {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  margin-top: 30px;
+  margin-left: 40px;
+  font-weight: lighter;
+}
+
+.header {
+  background-color: floralwhite;
+  padding: 20px;
+  text-align: left;
+  display: block;
+  overflow: hidden;
+}
+             
+.columnleft {
+  max-width: 40%;
+}
+
+.columnright {
+  max-width: 60%;
+}
+
+
+
+
+
+
+}
+.pictures {
+  max-width: 100%;
+  height: auto;
+}
+  
+#demo {
+  float: right;
+  max-width: 300px;
+}
+
+#topnav {
+  flex-direction: column;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: gold;
+  display: block;
+}
+
+#topnav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  float: left;
+}
+
+#topnav a:hover {
+  background-color: darkkhaki;
+}
+
+#current{
+  background-color: darkolivegreen;
+}
+
+#footer {
+  min-width: 100%;
+  padding: 5px 10px 5px 10px;
+  color: white;
+  display: block;
+  background-color: darkolivegreen;
+}
+
+#kontakt {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  text-align: left;
+  line-height: 200%;
+  list-style-type: none;
+}
+
+#sidanstopp {
+  text-align: right;
+  color: snow;
+}
+
