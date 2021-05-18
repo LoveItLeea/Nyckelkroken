@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+  <title>Nyckelkroken</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!--Egna CSS-->
+  <link rel="stylesheet" href="nyckelkroken.css">
+
+  <!-- oklart? -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<!-- Innehåll-->
+
+<body>
+
+  <!-- Navigeringsbar, vet ej vilka funktioner vi vill ha i den? -->
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <a class="navbar-brand" href="#">Nyckelkroken</a>
+    <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+      aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavId">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Startsida <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Kontakta oss</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">Meny</a>
+          <div class="dropdown-menu" aria-labelledby="dropdownId">
+            <a class="dropdown-item" href="#">Action 1</a>
+            <a class="dropdown-item" href="#">Action 2</a>
+          </div>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Sök</button>
+      </form>
+    </div>
+  </nav>
+
+  <!-- Huvudrubrik och info -->
+  <div class="header">
+    <h1 id=headerrubrik>Nyckelkroken - lokal hyresgästförening</h1>
+    <p>För boende i Stockholmshems lägenheter på Kvistbrogatan, Askersgatan och Ervallakroken i Rågsved</p>
+  </div>
+
+  <!-- Mitt-navigering-->
+  <div id="topnav">
+    <a href=".html">Mer om Rågsved</a>
+    <a href=".html">Engagera dig</a>
+    <a href=".html">Karta</a>
+    <a href=".html">Kalender</a>
+    <a href=".html">Att göra i närområdet</a>
+    <a href=".html">Arrangera ett event</a>
+    <a href=".html">Dina rättigheter</a>
+    <a href=".html">Föreningar och organisationer i området</a>
+    <a id="current" href="Om Nyckelkroken.index.html">Engagera dig</a>
+    <a href="#footer">Kontakt</a>
+  </div>
+
+  <!-- Bild karusell -->
+  <!-- vi får fixa bildtexter sen:)-->
+  <!--  tyvärr Emma verkade det som att den inte kunde länka till dina filer så jag la in dom från min sida, snyggt jobbat den funkar ju! Jag la den i container oxå:) -->
+  <div class="container">
+    <div id="demo" class="carousel slide" data-ride="carousel">
+      <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+      </ul>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="Bilder/pumpaaktivitet.jpg" alt="Pumpaaktivitet" width="500" height="250">
+        </div>
+        <div class="carousel-item">
+          <img src="Bilder/korvkalas.jpg" alt="Korvkalas" width="400" height="250">
+        </div>
+        <div class="carousel-item">
+          <img src="Bilder/biodlare.JPG" alt="Biodlare" width="550" height="250">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+  </div>
+
+  <!-- info text -->
+  <div class="main">
+    <h2>Rågsveds naturreservat</h2>
+    <p>Rågsveds naturreservat är Stockholms stad senaste reservat och invigdes 2018. Det rymmer en mosaik av öppna
+      ängsmarker, våtmarker, fuktlövskogar, ädellövsmiljöer och barrskogsklädda höjder.</p>
+    <p>Rågsveds naturreservat är 94 hektar stort varav 13 hektar är vatten. Stora delar av området visar spår av
+      människors brukande av marken som präglat landskapet i flera hundra år. Här finns goda möjligheter till
+      promenader, löpning, natur- och kulturupplevelser och vintertid även skidåkning.</p>
+
+    <ul>På Stockholms stads hemsida kan du läsa mer:
+      <li>Kartor, pdf</li>
+      <li>Bilder från Rågsveds naturreservat</li>
+      <li>Vilka som regler gäller i naturreservat</li>
+    </ul>
+    <a href="https://parker.stockholm/naturreservat/ragsved/">Stockholms stads sida om Rågsveds naturreservat</a>
+    </ul>
+    <img class="pictures" src="Rågsvedsnaturreservat.jpeg">
+  </div>
+  <div class="right">
+    <h2>Nya Rågsveds Folkets hus</h2>
+    <p>Nya Rågsveds Folkets Hus ägs och förvaltas av det lokala föreningslivet i Rågsved och Vantör. Folkets hus
+      anordnar kulturengagemang(?), musikföreställningar, barnteater, konstutställningar och gemensam jul.</p>
+    <a href="https://www.nyaragsvedsfolketshus.se/index.html">Nya Rågsveds Folkets hus</a>
+  </div>
+
+  <div class="column left">
+
+    <img src="pumpa.jpeg" alt="Los Angeles" width="400" height="250">
+    <img src="städdag.jpeg" width="400" height="250">
+    <img src="utemöte.jpeg" width="400" height="250">
+    <img src="bin.jpeg" width="400" height="250">
+    <img src="bin2.jpeg" width="400" height="250">
+    <img src="kartbild.png" width="400" height="250">
+    <img src="nattvandring.jpeg" width="400" height="250">
+    <img src="Rågsvedsnaturreservat.jpeg" width="400" height="250">
+    <img src="korvkalas.jpeg" alt="Chicago" width="400" height="250">
+
+    <img src="biodlare.jpeg" alt="New York" width="400" height="250">
+  </div>
+  </div>
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+  </div>
+
+  <!-- <title>Nyckelkroken</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="Nyckelkroken.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </head>
+<body> -->
+
+  </div>
+
+  <!-- Footer -->
+  <div id="footer">
+    <h3>Hör av dig till oss!</h3>
+    <ul id="kontakt">
+      <li><strong>E-post:</strong> lh.nyckelkroken@gmail.com</li>
+      <li><strong>Telefon:</strong> 070-212 60 33</li>
+      <li><strong>Facebook:</strong> www.facebook.com/LHnyckelkroken</li>
+      <p>Bli medlem och engagera dig för ett bättre boende!
+        https://www.hyresgastforeningen.se/blimedlem</p>
+    </ul>
+    <a href="#" id="sidanstopp">
+      <p>Till sidans topp</p>
+    </a>
+  </div>
+</body>
+
+</html>
