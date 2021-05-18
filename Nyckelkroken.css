@@ -58,7 +58,7 @@ h3 {
 }
 
 .header {
-  background-color: floralwhite;
+  background-color: #fffaf0;
   padding: 20px;
   text-align: left;
   display: block;
@@ -95,7 +95,7 @@ h3 {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: gold;
+  background-color: #EFB041;
   display: block;
 }
 
@@ -113,7 +113,7 @@ h3 {
 }
 
 #current{
-  background-color: darkolivegreen;
+  background-color: #516344;
 }
 
 #footer {
@@ -121,7 +121,7 @@ h3 {
   padding: 5px 10px 5px 10px;
   color: white;
   display: block;
-  background-color: darkolivegreen;
+  background-color: #516344;
 }
 
 #kontakt {
