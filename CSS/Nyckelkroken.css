@@ -95,7 +95,7 @@ h3 {
   background-color: #EFB041;
   display: block;
 }
-
+ /* får inte till vita bokstäver när navbar är grön, vid "current" /Emma */
 #topnav a {
   display: block;
   color: black;
