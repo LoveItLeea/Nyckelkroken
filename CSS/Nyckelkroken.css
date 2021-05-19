@@ -70,13 +70,18 @@ h3 {
 }
 
 .columnright {
-  max-width: 60%;}
+  max-width: 60%;
 }
 .pictures {
   max-width: 100%;
   height: auto;
 }
-  
+
+.breadcrumbStyle {
+  background-color:#f1d9ad ;
+}
+
+
 #demo {
   float: right;
   max-width: 300px;
