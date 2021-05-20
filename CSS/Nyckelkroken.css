@@ -81,6 +81,10 @@ h3 {
   background-color:#f1d9ad ;
 }
 
+.navbarStyle {
+  background-color:#f1f0db;
+}
+
 #demo {
   float: right;
   max-width: 300px;
