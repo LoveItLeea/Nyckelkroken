@@ -136,4 +136,21 @@ h3 {
   color: snow;
 }
 
+/* unvisited link */
+a:link {
+  color: rgb(79, 75, 80);
+}
 
+/* visited link */
+a:visited {
+  color: rgb(0, 0, 0);
+}
+
+/* mouse over link */
+a:hover {
+  color: #eb8108;
+}
+
+/* selected link */
+a:active {
+  color: rgb(43, 143, 43);
