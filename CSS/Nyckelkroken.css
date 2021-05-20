@@ -8,7 +8,7 @@ body {
   font-family: Verdana, Arial, Helvetica, sans-serif;
   font-size: 1em;
   min-width: 100%;
-  line-height: 1.2;
+  line-height: 1.3;
 }
  .carousel-inner img {
     width: 100%;
@@ -43,7 +43,7 @@ h1 {
 }
 
 h2 {
-  font-family: Georgia, Times, "Times New Roman", serif;
+  font-family: "TT norms", sans-serif; /*Georgia, Times, "Times New Roman", serif;*/
   font-size: 1.5em;
   color: black;
   margin-top: 40px;
@@ -51,7 +51,7 @@ h2 {
 }
 
 h3 {
-  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-family: "TT norms", sans-serif; /*Georgia, Times, "Times New Roman", serif;*/
   margin-top: 30px;
   margin-left: 40px;
   font-weight: lighter;
@@ -136,4 +136,21 @@ h3 {
   color: snow;
 }
 
+/* unvisited link */
+a:link {
+  color: rgb(79, 75, 80);
+}
 
+/* visited link */
+a:visited {
+  color: rgb(240, 165, 4);
+}
+
+/* mouse over link */
+a:hover {
+  color: #eb8108;
+}
+
+/* selected link */
+a:active {
+  color: rgb(43, 143, 43);
