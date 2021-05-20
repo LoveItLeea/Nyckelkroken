@@ -43,7 +43,7 @@ h1 {
 }
 
 h2 {
-  font-family: Georgia, Times, "Times New Roman", serif;
+  font-family: "TT norms", sans-serif; /*Georgia, Times, "Times New Roman", serif;*/
   font-size: 1.5em;
   color: black;
   margin-top: 40px;
@@ -51,7 +51,7 @@ h2 {
 }
 
 h3 {
-  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-family: "TT norms", sans-serif; /*Georgia, Times, "Times New Roman", serif;*/
   margin-top: 30px;
   margin-left: 40px;
   font-weight: lighter;
